@@ -147,8 +147,7 @@ async def main(url, playlist_location,album):
 while True:
     asyncio.run(main(raplife, "/app/raplife", "RapLife"))
     asyncio.run(main(top100, "/app/top100", "Top 100: Zimbabwe"))
-    time.sleep(10)
-    # time.sleep(604800)
+    time.sleep(604800)
     delete_all_files("/app/raplife")
     delete_all_files("/app/top100")
 
