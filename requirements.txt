@@ -1,0 +1,6 @@
+moviepy
+pytube
+ytmusicapi
+mutagen
+beautifulsoup4
+requests
